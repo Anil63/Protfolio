@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(130.68deg, #bae8f7 0%, #000000 100.52%);
+  color: white;
+}
+
+.myimage {
+  width: 100rem;
+
+  left: 875px;
+  top: -50px;
+}
+
+.cv_btn {
+  background-color: black;
+  padding: 10px;
+  width: 10rem;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+/* home icons */
+
+.incons {
+  background-color: #030303;
+  color: aliceblue;
+}
+
+.incon {
+  padding: 30px;
+}
+
+.bac {
+  background-color: #414141;
+  margin: 10px;
+  padding: 25px;
+  height: 15rem;
+  width: 11rem;
+  border-radius: 10px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.hed {
+  font-size: 19px;
+  text-align: center;
+}
+
+/* end */
+/* about */
+.About {
+  /* background: linear-gradient(130.68deg, #000000 0%, #080808 100.52%);
+  */
+ background-image:url(https://wallpaperaccess.com/full/1947484.jpg);
+background-size: cover;
+}
+
+.di2 {
+
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+  padding: 50px;
+ 
+  color: #c0bdbd;
+}
+.About {
+  background-color: #414141;
+}
+.main {
+  /* background-color: #9c9c9c; */
+  padding: 50px;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* side bar */
+.Portfolio {
+  /* background-color: #000000; */
+  background-image: url("https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGRldmVsb3BlcnxlbnwwfHwwfHw%3D&w=1000&q=80");
+  padding: 20px;
+  color: aliceblue;
+  height: 30rem;
+  background-size: cover;
+}
+.sidebar {
+ 
+  justify-content: center;
+  align-items: center;
+ 
+ 
+ 
+ 
+}
+.mypro{
+  width: 40rem;
+}
+
+.Socil{
+  margin: 10px;
+}
+
+/* logo */
+
+.logo{
+  width: 9rem;
+  border-radius: 50%;
+}
