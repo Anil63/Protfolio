@@ -23,6 +23,14 @@
   width: 10rem;
   border-radius: 15px;
   margin-top: 20px;
+  transition: 2s;
+}
+
+.cv_btn:hover {
+  cursor: pointer;
+  background-color: #4c595c;
+  letter-spacing: 2px;
+  /* color: #000000; */
 }
 /* home icons */
 
@@ -36,7 +44,7 @@
 }
 
 .bac {
-  background-color: #414141;
+  background-color: rgb(72 82 98);
   margin: 10px;
   padding: 25px;
   height: 15rem;
@@ -57,15 +65,14 @@
 .About {
   /* background: linear-gradient(130.68deg, #000000 0%, #080808 100.52%);
   */
- background-image:url(https://wallpaperaccess.com/full/1947484.jpg);
-background-size: cover;
+  background-image: url(https://wallpaperaccess.com/full/1947484.jpg);
+  background-size: cover;
 }
 
 .di2 {
-
-  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   padding: 50px;
- 
+
   color: #c0bdbd;
 }
 .About {
@@ -84,30 +91,139 @@ background-size: cover;
   /* background-color: #000000; */
   background-image: url("https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGRldmVsb3BlcnxlbnwwfHwwfHw%3D&w=1000&q=80");
   padding: 20px;
-  color: aliceblue;
-  height: 30rem;
+  width: 100%;
+  height: 500px;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .sidebar {
- 
   justify-content: center;
   align-items: center;
- 
- 
- 
- 
-}
-.mypro{
-  width: 40rem;
 }
 
-.Socil{
+.port {
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+.my_pj {
+  height: 250px;
+  border-radius: 10px;
+  /* border: 2px solid blue; */
+  /* text-align: center; */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.mypro {
+  width: 40rem;
+  /* border: 2px solid gray; */
+  border-radius: 10px;
+  border: none;
+  height: 244px;
+}
+
+.Socil {
   margin: 10px;
 }
 
 /* logo */
 
-.logo{
+.logo {
   width: 9rem;
   border-radius: 50%;
+}
+
+/* @media only screen and (min-width: 600px) {
+  .header {
+    width: 183%;
+    padding: 20px;
+    height: fit-content;
+  }
+} */
+
+@media only screen and (max-width: 768px) {
+  .incon {
+    padding: 0;
+  }
+  .bac {
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .bac i {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .logo {
+    margin: 3px 5px;
+    width: 45px;
+  }
+  .main_header {
+    margin: 0 6px;
+  }
+
+  .cv_btn {
+    margin-bottom: 8px;
+  }
+
+  .bac {
+    height: 6rem;
+  }
+
+  .bac i,
+  .bac .hed {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .main_header {
+    /* display: block; */
+    text-align: center;
+    background-image: url("./img/Gleb.png");
+   
+    /* z-index: 1; */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .lg-cont {
+    backdrop-filter: blur(5px);
+}
+
+  .lg-cont h3 {
+    font-size: 22px;
+  }
+
+  .myimage {
+    display: none;
+  }
+
+  .lg-cont h1 {
+    font-size: 36px;
+    padding: 10px;
+  }
+
+  .lg-cont p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #251803;
+}
+
+  .footer {
+    display: block;
+    text-align: center;
+  }
+
+  img.logo {
+    /* text-align: center; */
+    margin: 0 auto;
+  }
 }
